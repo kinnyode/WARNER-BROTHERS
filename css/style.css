@@ -20,14 +20,14 @@ p {
 }
 @font-face {
   font-family: myfont2;
-  src: url(../FOnts/Uto\ Regular.otf);
+  src: url(../FOnts/Gilroy/Gilroy-Medium.ttf);
 }
 
 .heropage {
   height: 100vh;
   width: 100%;
   display: flex;
-  background-image: url(../Assets/Desktop\ -\ 9.png);
+  background-image: url(../Assets/Desktop\ -\ 9.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,9 +58,17 @@ p {
   font-family: myfont2;
 }
 
+.links a:hover {
+  color: #a42525;
+}
+
 .links {
   display: flex;
   gap: 50px;
+}
+
+.links a {
+  transition: 0.4s;
 }
 
 .logo {
@@ -233,7 +241,7 @@ p {
   color: white;
 }
 .subtext p {
-  font-size: 18px;
+  font-size: 20px;
   color: white;
 }
 .subtexts {
@@ -388,7 +396,7 @@ p {
 }
 
 .sec3 h1 {
-  font-size: 27px;
+  font-size: 40px;
 }
 .sec4 {
   width: 100%;
@@ -397,6 +405,10 @@ p {
   color: white;
   font-size: 17px;
   text-align: center;
+}
+
+.sec4 p {
+  font-size: 20px;
 }
 
 .processdiv2 {
@@ -431,8 +443,9 @@ p {
   justify-content: center;
   color: rgb(0, 0, 0);
 }
+
 .sec3-2 h1 {
-  font-size: 27px;
+  font-size: 40px;
 }
 
 .sec4-2 {
@@ -442,6 +455,10 @@ p {
   color: rgb(0, 0, 0);
   font-size: 16px;
   text-align: center;
+}
+
+.sec4-2 p {
+  font-size: 20px;
 }
 
 .singleprocesssection {
@@ -498,6 +515,9 @@ p {
   gap: 2px;
   color: white;
   font-size: 18px;
+}
+.pcontent p {
+  font-size: 20px;
 }
 
 .threeprojectboxes {
@@ -714,6 +734,10 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+  @font-face {
+    font-family: myfont2;
+    src: url(../FOnts/Gilroy-Regular.ttf);
+  }
   p {
     font-weight: 100;
   }
@@ -817,7 +841,7 @@ p {
   }
 
   .navlinks a {
-    font-size: 10px;
+    font-size: 13Spx;
   }
 
   .textsh1 {
