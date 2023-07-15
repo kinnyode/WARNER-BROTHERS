@@ -16,11 +16,11 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/grifterbold.otf);
+  src: url(../FOnts/QuantaGroteskPro-Regular-BF6459a54c2dd8b.otf);
 }
 @font-face {
   font-family: myfont2;
-  src: url(../FOnts/Sk-Modernist-Regular.otf);
+  src: url(../FOnts/Uto\ Regular.otf);
 }
 
 .heropage {
@@ -245,9 +245,8 @@ p {
 }
 
 .subtext img {
-  width: 2%;
+  width: 3%;
   object-fit: contain;
-  height: 100%;
 }
 
 .section2 {
@@ -715,6 +714,9 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+  p {
+    font-weight: 100;
+  }
   .dummylinks {
     display: none;
   }
@@ -766,11 +768,11 @@ p {
   }
 
   .sec3-2 h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .sec3 h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .sec1-2 h1 {
@@ -802,11 +804,13 @@ p {
   }
 
   .assets h1 {
-    font-size: 23px;
+    font-size: 29px;
+    font-weight: 200;
   }
 
   .assets h2 {
-    font-size: 23px;
+    font-size: 29px;
+    font-weight: 200;
   }
   .line {
     width: 50%;
@@ -821,7 +825,7 @@ p {
   }
 
   .content h1 {
-    font-size: 20px;
+    font-size: 25px;
     color: black;
   }
 
@@ -835,9 +839,10 @@ p {
   }
 
   .sectext h1 {
-    font-size: 25px;
+    font-size: 30px;
     justify-content: center;
     display: flex;
+    font-weight: 200;
   }
 
   .content {
@@ -865,9 +870,6 @@ p {
 
   .sectiontwo img {
     width: 50%;
-  }
-  .subtext img {
-    height: none;
   }
 
   .bodysection {
@@ -909,9 +911,10 @@ p {
   }
 
   .sectext2 h1 {
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     text-align: center;
+    font-weight: 200;
   }
 
   .sectionone2 {
@@ -977,7 +980,7 @@ p {
   }
 
   .aspect2 h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .pbox1 {
@@ -1009,13 +1012,37 @@ p {
   .section1 {
     padding: 15px;
   }
+  h1 {
+    font-weight: 100;
+  }
+}
 
-  @media screen and (max-width: 320px) {
-    .assets h1 {
-      font: 20px;
-    }
-    .assets h2 {
-      font-size: 20px;
-    }
+@media screen and (max-width: 320px) {
+  .assets h1 {
+    font-size: 17px;
+  }
+  .assets h2 {
+    font-size: 17px;
+  }
+
+  .subtext p {
+    font-size: 11px;
+  }
+  .navlinks a {
+    font-size: 9px;
+  }
+
+  .sec4 p {
+    font-size: 11px;
+    color: #e0e0e0;
+  }
+
+  .sec4-2 p {
+    font-size: 11px;
+    color: #2c2c2c;
+  }
+
+  .pcontent p {
+    font-size: 12px;
   }
 }
