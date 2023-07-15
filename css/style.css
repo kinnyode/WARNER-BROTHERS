@@ -1,0 +1,955 @@
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: myfont;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+p {
+  font-family: myfont2;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(../FOnts/grifterbold.otf);
+}
+@font-face {
+  font-family: myfont2;
+  src: url(../FOnts/GoogleSans-Regular.ttf);
+}
+
+.heropage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-image: url(../Assets/Desktop\ -\ 9.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  scroll-snap-align: start;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  background-color: transparent;
+}
+
+.navlinks {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+.navlinks a {
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  font-family: myfont2;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+.logo {
+  color: white;
+}
+.logo p {
+  font-size: 15px;
+}
+
+.assets {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: white;
+  align-items: end;
+  padding-right: 90px;
+  gap: 250px;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.assets h1 {
+  display: flex;
+  font-size: 65px;
+  font-weight: 300;
+}
+
+.textsh1 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.assets h2 {
+  display: flex;
+  font-size: 45px;
+  font-weight: 100;
+  color: rgb(199, 199, 199);
+}
+
+.actionline {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.line {
+  display: flex;
+  width: 500px;
+  height: 2px;
+  background-color: white;
+}
+.actionline h1 {
+  font-size: 40px;
+  transition: 0.7s;
+}
+.actionline h1:hover {
+  color: #af2525;
+}
+
+.achievementsection {
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  scroll-snap-align: start;
+}
+
+.threesections {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.section1 {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.breakline {
+  width: 350px;
+  height: 2px;
+  background-color: white;
+}
+
+.content h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.content p {
+  font-family: myfont2;
+  color: white;
+  font-size: 17px;
+}
+
+.bodysection {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  background-color: rgb(99, 99, 99);
+}
+
+.twosections {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+}
+.sectionone {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-left: 170px;
+}
+
+.sectionone2 {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-left: 170px;
+}
+
+.sectiontwo {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtext {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.sectext {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectext h1 {
+  font-size: 40px;
+  color: white;
+}
+.subtext p {
+  font-size: 18px;
+  color: white;
+}
+.subtexts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  align-items: center;
+}
+
+.subtext img {
+  width: 2%;
+  object-fit: contain;
+  height: 100%;
+}
+
+.section2 {
+  width: 100%;
+}
+
+.sectiontwo img {
+  width: 48%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.twosectionss {
+  width: 100%;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  flex-direction: row-reverse;
+}
+
+.bodysection2 {
+  scroll-snap-align: start;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  background-color: rgb(99, 99, 99);
+}
+
+.partnersection {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(0, 0, 0);
+}
+.passets {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pline {
+  width: 90%;
+  height: 1px;
+  background-color: rgb(82, 82, 82);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.plogos {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  height: 70%;
+}
+
+.plogos img {
+  width: 10%;
+  height: 100%;
+  object-fit: contain;
+  aspect-ratio: 3/4;
+}
+
+.processection {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  flex-direction: column;
+}
+
+.h1tag {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 70px;
+  color: white;
+  height: 15vh;
+}
+
+.h1tag h1 {
+  font-size: 27px;
+}
+.h1tag span {
+  font-size: 50px;
+}
+
+.twoprocessdiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.processdiv1 {
+  display: flex;
+  width: 480px;
+  height: 550px;
+  background-color: #851c1c;
+  border-radius: 33px;
+  margin-top: 60px;
+  padding: 20px;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+.foursec {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sec1 h1 {
+  display: flex;
+  padding-left: 60px;
+  color: white;
+  margin-top: 50px;
+}
+
+.sec2 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.sec2 img {
+  width: 10%;
+  object-fit: contain;
+}
+
+.sec3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.sec3 h1 {
+  font-size: 27px;
+}
+.sec4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+
+.processdiv2 {
+  display: flex;
+  width: 480px;
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 33px;
+  margin-top: 60px;
+  padding: 20px;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.processdiv2:hover {
+  transform: scale(1.04);
+}
+
+.processdiv1:hover {
+  transform: scale(1.04);
+}
+
+.sec1-2 h1 {
+  display: flex;
+  padding-left: 60px;
+  color: rgb(0, 0, 0);
+  margin-top: 50px;
+}
+
+.sec3-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+.sec3-2 h1 {
+  font-size: 27px;
+}
+
+.sec4-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  text-align: center;
+}
+
+.singleprocesssection {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  background-color: black;
+}
+
+.projectsection {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.twoprojects {
+  width: 100%;
+  display: flex;
+  margin-top: 80px;
+}
+
+.project1 {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+
+.project2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.contents {
+  padding-left: 50px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 70px;
+}
+
+.contents h1 {
+  display: flex;
+  width: 100%;
+  color: white;
+  font-size: 50px;
+}
+
+.pcontent {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: white;
+  font-size: 18px;
+}
+
+.threeprojectboxes {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+  padding: 25px;
+  flex-direction: column;
+}
+
+.pbox1 {
+  width: 95%;
+  height: 213px;
+  background-color: white;
+  border-radius: 33px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.pbox1:hover {
+  transform: scale(1.021);
+}
+
+.pdivision {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.p1 {
+  width: 60%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.p1 img {
+  object-fit: cover;
+}
+
+.p2 {
+  width: 100%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 100%;
+  display: flex;
+}
+
+.threeaspects {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+
+.aspect1 {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  box-shadow: 0px 5px 15px rgb(118, 118, 118);
+  border-radius: 30px;
+}
+.aspect1 h1 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+}
+
+.aspect3 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.aspect3 img {
+  width: 6%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.breakline {
+  display: none;
+
+  width: 80%;
+  justify-content: center;
+  background-color: rgb(135, 0, 0);
+  margin-top: 30px;
+}
+
+.breaksectionline {
+  width: 100%;
+  display: none;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.pcontent p {
+  color: rgb(107, 107, 107);
+}
+
+@media screen and (max-width: 1060px) {
+  .twoprojects {
+    flex-direction: column;
+  }
+
+  .twoprocessdiv {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contents {
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .pcontent {
+    text-align: center;
+  }
+
+  .contents h1 {
+    justify-content: center;
+  }
+
+  .threeprojectboxes {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aspect2 h1 {
+    font-size: 29px;
+  }
+
+  .h1tag span {
+    font-size: 45px;
+  }
+
+  .sectext h1 {
+    font-size: 30px;
+  }
+
+  .sectext2 h1 {
+    font-size: 30px;
+  }
+
+  .sectionone2 {
+    padding-left: 0px;
+  }
+
+  .subtext {
+    gap: 10px;
+  }
+
+  .subtext p {
+    font-size: 13px;
+  }
+
+  .section2 img {
+    width: 50%;
+  }
+
+  .sectionone {
+    padding-left: 30px;
+  }
+
+  .content h1 {
+    font-size: 25px;
+  }
+
+  .content p {
+    font-size: 14px;
+  }
+
+  .line {
+    width: 250px;
+    height: 1px;
+  }
+  .actionline h1 {
+    font-size: 30px;
+  }
+
+  .assets h1 {
+    font-size: 35px;
+  }
+
+  .assets h2 {
+    font-size: 30px;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .assets {
+    padding-right: 25px;
+  }
+
+  .threeprojectboxes {
+    gap: 30px;
+  }
+
+  .p1 {
+    width: 40%;
+  }
+
+  .threeaspects {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .processdiv1 {
+    width: 60%;
+    height: 100%;
+  }
+  .aspect1 {
+    width: 100px;
+    height: 35px;
+  }
+  .aspect1 h1 {
+    font-size: 20px;
+  }
+
+  .aspect3 p {
+    font-size: 13px;
+  }
+
+  .threeaspects {
+    padding-left: 0px;
+  }
+
+  .sec1 h1 {
+    margin-top: 0px;
+    padding-left: 0px;
+    font-size: 25px;
+  }
+
+  .foursec {
+    gap: 25px;
+  }
+
+  .processdiv2 {
+    height: 100%;
+    width: 60%;
+  }
+
+  .sec3-2 h1 {
+    font-size: 11px;
+  }
+
+  .sec3 h1 {
+    font-size: 11px;
+  }
+
+  .sec1-2 h1 {
+    padding-left: 0px;
+    font-size: 25px;
+    margin-top: 0px;
+  }
+
+  .twoprocessdiv {
+    padding: 20px;
+  }
+
+  .contents h1 {
+    font-size: 35px;
+  }
+
+  .h1tag span {
+    font-size: 35px;
+  }
+
+  .achievementsection {
+    height: 100%;
+  }
+
+  .threesections {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .assets h1 {
+    font-size: 20px;
+  }
+
+  .assets h2 {
+    font-size: 20px;
+  }
+  .line {
+    width: 50%;
+  }
+
+  .navlinks a {
+    font-size: 10px;
+  }
+
+  .textsh1 {
+    gap: 2px;
+  }
+
+  .content h1 {
+    font-size: 15px;
+  }
+
+  .content p {
+    font-size: 10px;
+  }
+
+  .sectext {
+    margin-top: 35px;
+  }
+
+  .sectext h1 {
+    font-size: 17px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .content {
+    margin-top: 10px;
+  }
+
+  .sectionone {
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+
+  .subtexts {
+    padding-left: 20px;
+  }
+
+  .subtext p {
+    font-size: 10px;
+  }
+
+  .sectiontwo img {
+    width: 50%;
+  }
+  .subtext img {
+    height: none;
+  }
+
+  .bodysection {
+    height: 100%;
+  }
+
+  .sectext2 {
+    margin-top: 0px;
+  }
+
+  .subtexts {
+    gap: 15px;
+  }
+
+  .sec4 p {
+    font-size: 10px;
+  }
+
+  .sec4-2 p {
+    font-size: 10px;
+  }
+
+  .twosections {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .twosectionss {
+    flex-direction: column-reverse;
+  }
+
+  .sectext2 h1 {
+    font-size: 17px;
+    color: white;
+  }
+
+  .sectionone2 {
+    justify-content: center;
+  }
+
+  .sectiontwo {
+    margin-top: 30px;
+  }
+
+  .pbox1 {
+    border-radius: none;
+    height: 100%;
+  }
+
+  .pdivision {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .aspect3 {
+    gap: 0px;
+  }
+
+  .aspect3 img {
+    display: none;
+  }
+
+  .p1 {
+    width: 100%;
+  }
+
+  .p1 img {
+    object-fit: cover;
+    width: 100%;
+    padding: 15px;
+    border-radius: 60px;
+  }
+
+  .threeaspects {
+    justify-content: none;
+    gap: 30px;
+  }
+
+  .pcontent p {
+    font-size: 13px;
+  }
+
+  .project1 {
+    height: 100%;
+  }
+
+  .contents {
+    margin-top: 0px;
+  }
+  .aspect3 p {
+    padding-bottom: 5px;
+  }
+
+  .aspect2 h1 {
+    font-size: 20px;
+  }
+
+  .pbox1 {
+    width: 75%;
+  }
+
+  .processdiv1 {
+    margin-top: 0px;
+  }
+
+  .h1tag {
+    margin-top: 0px;
+  }
+
+  .sectionone {
+    height: 25vh;
+    justify-content: space-around;
+    gap: 0px;
+  }
+}
