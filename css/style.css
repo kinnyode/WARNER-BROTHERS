@@ -16,7 +16,7 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/ClashDisplay-Regular.otf);
+  src: url(../FOnts/grifterbold.otf);
 }
 @font-face {
   font-family: myfont2;
@@ -40,6 +40,9 @@ p {
   display: flex;
   height: 100px;
   background-color: transparent;
+}
+.more {
+  display: none;
 }
 
 .navlinks {
@@ -304,7 +307,7 @@ p {
 }
 
 .plogos img {
-  width: 10%;
+  width: 15%;
   height: 100%;
   object-fit: contain;
   aspect-ratio: 3/4;
@@ -603,7 +606,9 @@ p {
   .twoprojects {
     flex-direction: column;
   }
-
+  .more {
+    display: none;
+  }
   .twoprocessdiv {
     flex-direction: column;
     align-items: center;
@@ -709,9 +714,23 @@ p {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
+  .dummylinks {
+    display: none;
+  }
+
+  .more {
+    display: flex;
+    justify-content: end;
+  }
+
+  .more img {
+    width: 8%;
+    object-fit: contain;
+    cursor: pointer;
+  }
   .processdiv1 {
-    width: 60%;
+    width: 75%;
     height: 100%;
   }
   .aspect1 {
@@ -742,15 +761,16 @@ p {
 
   .processdiv2 {
     height: 100%;
-    width: 60%;
+    width: 75%;
+    margin-top: 50px;
   }
 
   .sec3-2 h1 {
-    font-size: 12px;
+    font-size: 25px;
   }
 
   .sec3 h1 {
-    font-size: 12px;
+    font-size: 25px;
   }
 
   .sec1-2 h1 {
@@ -773,6 +793,7 @@ p {
 
   .achievementsection {
     height: 100%;
+    background-color: white;
   }
 
   .threesections {
@@ -781,11 +802,11 @@ p {
   }
 
   .assets h1 {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .assets h2 {
-    font-size: 25px;
+    font-size: 23px;
   }
   .line {
     width: 50%;
@@ -801,10 +822,12 @@ p {
 
   .content h1 {
     font-size: 20px;
+    color: black;
   }
 
   .content p {
-    font-size: 10px;
+    font-size: 13px;
+    color: black;
   }
 
   .sectext {
@@ -828,11 +851,16 @@ p {
 
   .subtexts {
     padding-left: 0px;
-    width: 50%;
   }
 
+  .subtexts {
+    gap: 20px;
+  }
+  .subtext {
+    justify-content: center;
+  }
   .subtext p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .sectiontwo img {
@@ -846,6 +874,13 @@ p {
     height: 100%;
   }
 
+  .bodysection2 {
+    height: 100%;
+  }
+
+  .twosectionss {
+    gap: 40px;
+  }
   .sectext2 {
     margin-top: 0px;
   }
@@ -855,12 +890,12 @@ p {
   }
 
   .sec4 p {
-    font-size: 12px;
+    font-size: 14px;
     color: #e0e0e0;
   }
 
   .sec4-2 p {
-    font-size: 12px;
+    font-size: 14px;
     color: #2c2c2c;
   }
 
@@ -946,7 +981,7 @@ p {
   }
 
   .pbox1 {
-    width: 75%;
+    width: 80%;
   }
 
   .processdiv1 {
@@ -967,11 +1002,20 @@ p {
     gap: 40px;
   }
 
-  .sectext {
-    margin-top: 0px;
+  .passets {
+    margin-top: 30px;
   }
 
-  .passets {
-    margin-top: 0px;
+  .section1 {
+    padding: 15px;
+  }
+
+  @media screen and (max-width: 320px) {
+    .assets h1 {
+      font: 20px;
+    }
+    .assets h2 {
+      font-size: 20px;
+    }
   }
 }
