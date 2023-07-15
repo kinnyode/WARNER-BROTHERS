@@ -16,11 +16,11 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/grifterbold.otf);
+  src: url(../FOnts/ClashDisplay-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
-  src: url(../FOnts/GoogleSans-Regular.ttf);
+  src: url(../FOnts/Sk-Modernist-Regular.otf);
 }
 
 .heropage {
@@ -96,6 +96,7 @@ p {
   font-size: 45px;
   font-weight: 100;
   color: rgb(199, 199, 199);
+  gap: 7px;
 }
 
 .actionline {
@@ -736,7 +737,7 @@ p {
   }
 
   .foursec {
-    gap: 25px;
+    gap: 15px;
   }
 
   .processdiv2 {
@@ -745,11 +746,11 @@ p {
   }
 
   .sec3-2 h1 {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .sec3 h1 {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .sec1-2 h1 {
@@ -780,11 +781,11 @@ p {
   }
 
   .assets h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .assets h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
   .line {
     width: 50%;
@@ -799,7 +800,7 @@ p {
   }
 
   .content h1 {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .content p {
@@ -811,7 +812,7 @@ p {
   }
 
   .sectext h1 {
-    font-size: 17px;
+    font-size: 25px;
     justify-content: center;
     display: flex;
   }
@@ -826,11 +827,12 @@ p {
   }
 
   .subtexts {
-    padding-left: 20px;
+    padding-left: 0px;
+    width: 50%;
   }
 
   .subtext p {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .sectiontwo img {
@@ -853,11 +855,13 @@ p {
   }
 
   .sec4 p {
-    font-size: 10px;
+    font-size: 12px;
+    color: #e0e0e0;
   }
 
   .sec4-2 p {
-    font-size: 10px;
+    font-size: 12px;
+    color: #2c2c2c;
   }
 
   .twosections {
@@ -870,8 +874,9 @@ p {
   }
 
   .sectext2 h1 {
-    font-size: 17px;
+    font-size: 25px;
     color: white;
+    text-align: center;
   }
 
   .sectionone2 {
@@ -909,6 +914,11 @@ p {
     width: 100%;
     padding: 15px;
     border-radius: 60px;
+    transition: 0.4s;
+  }
+
+  .p1 img:hover {
+    transform: scale(1.045);
   }
 
   .threeaspects {
@@ -917,7 +927,7 @@ p {
   }
 
   .pcontent p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .project1 {
@@ -928,7 +938,7 @@ p {
     margin-top: 0px;
   }
   .aspect3 p {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
   }
 
   .aspect2 h1 {
@@ -948,8 +958,20 @@ p {
   }
 
   .sectionone {
-    height: 25vh;
-    justify-content: space-around;
-    gap: 0px;
+    height: 100%;
+    justify-content: none;
+    gap: 40px;
+  }
+
+  .sectionone2 {
+    gap: 40px;
+  }
+
+  .sectext {
+    margin-top: 0px;
+  }
+
+  .passets {
+    margin-top: 0px;
   }
 }
