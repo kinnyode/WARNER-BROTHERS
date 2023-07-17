@@ -1443,12 +1443,12 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 376px) {
   .assets h1 {
-    font-size: 17px;
+    font-size: 25px;
   }
   .assets h2 {
-    font-size: 17px;
+    font-size: 25px;
   }
 
   .subtext p {
@@ -1470,5 +1470,17 @@ button:hover {
 
   .pcontent p {
     font-size: 12px;
+  }
+
+  .aspect2 h1 {
+    font-size: 19px;
+  }
+
+  .sec3-2 h1 {
+    font-size: 25px;
+  }
+
+  .sec3 h1 {
+    font-size: 25px;
   }
 }
