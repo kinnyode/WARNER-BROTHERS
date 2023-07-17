@@ -97,6 +97,7 @@ p {
 .imgsection img {
   width: 80%;
   object-fit: cover;
+  object-position: top;
 }
 
 .twosections {
@@ -172,6 +173,7 @@ p {
   display: flex;
   font-size: 17px;
   font-weight: 200;
+  color: white;
 }
 
 .details2 h1 {
@@ -181,11 +183,21 @@ p {
   font-weight: 400;
 }
 
+.details1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.details2 a {
+  text-decoration: none;
+  color: white;
+}
 .details2 p {
   justify-content: center;
   display: flex;
   font-size: 17px;
   font-weight: 200;
+  color: white;
 }
 .footer {
   display: flex;
@@ -225,6 +237,7 @@ p {
   display: flex;
   justify-content: center;
   padding: 10px;
+  height: 50vh;
 }
 
 @media screen and (max-width: 767px) {
