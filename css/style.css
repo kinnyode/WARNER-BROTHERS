@@ -387,6 +387,7 @@ p {
   transition: 0.4s;
   overflow: hidden;
   cursor: pointer;
+  border-radius: 7px;
 }
 
 .foursec {
@@ -447,6 +448,7 @@ p {
   transition: 0.4s;
   overflow: hidden;
   cursor: pointer;
+  border-radius: 7px;
 }
 .processdiv2:hover {
   transform: scale(1.04);
@@ -537,7 +539,7 @@ p {
 }
 
 .viewall {
-  width: 150px;
+  width: 130px;
   height: fit-content;
   padding: 13px;
   justify-content: center;
@@ -547,6 +549,7 @@ p {
   border: 1px solid black;
   display: flex;
   transition: 0.4s;
+  align-self: flex-start;
 }
 
 .viewall:hover {
@@ -661,7 +664,7 @@ p {
   display: flex;
 }
 .pcontent p {
-  color: rgb(107, 107, 107);
+  color: rgb(234, 234, 234);
 }
 
 .testimonysection {
@@ -816,26 +819,33 @@ p {
 }
 
 input {
-  padding: 7px;
+  padding: 15px;
   border: 0px solid rgb(0, 0, 0);
   background-color: rgb(27, 27, 27);
-  width: 200px;
+  width: 100%;
   color: white;
 }
 
 .inputsec {
   display: flex;
-  gap: 8px;
+  gap: -3px;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
 }
 
 button {
   padding: 10px;
-  border: 1px solid rgb(135, 135, 135);
+  border: 1px solid rgb(34 34 34);
   background-color: #000000;
   color: white;
   width: 120px;
   cursor: pointer;
   transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 }
 
 button:hover {
@@ -861,6 +871,7 @@ button:hover {
   width: 100%;
   align-items: center;
   padding: 20px;
+  cursor: pointer;
 }
 
 .footerassets img {
@@ -876,16 +887,27 @@ button:hover {
 @media screen and (max-width: 1060px) {
   .p1 img {
     object-fit: cover;
-    width: 100%;
+    width: 85%;
     height: 100%;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
+  }
+
+  .viewall {
+    align-self: center;
   }
   .twoprojects {
     flex-direction: column;
   }
   .more {
-    display: none;
+    display: flex;
+    justify-content: end;
+  }
+
+  .more img {
+    width: 10%;
+    object-fit: contain;
+    cursor: pointer;
   }
   .twoprocessdiv {
     flex-direction: column;
@@ -1010,6 +1032,10 @@ button:hover {
     font-family: myfont2;
     src: url(../FOnts/Gilroy-Regular.ttf);
   }
+
+  .footerassets img {
+    width: 10%;
+  }
   .plogos {
     width: 100%;
     display: flex;
@@ -1035,7 +1061,7 @@ button:hover {
   }
 
   .more img {
-    width: 8%;
+    width: 10%;
     object-fit: contain;
     cursor: pointer;
   }
@@ -1067,7 +1093,7 @@ button:hover {
   }
 
   .foursec {
-    gap: 15px;
+    gap: 10px;
   }
 
   .processdiv2 {
@@ -1235,7 +1261,7 @@ button:hover {
   }
 
   .pbox1 {
-    border-radius: 0px;
+    border-radius: 7px;
     height: 100%;
   }
 
