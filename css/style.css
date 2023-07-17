@@ -379,7 +379,7 @@ p {
 
 .processdiv1 {
   display: flex;
-  width: 480px;
+  width: 35%;
   height: 550px;
   background-color: #851c1c;
   margin-top: 60px;
@@ -440,7 +440,7 @@ p {
 
 .processdiv2 {
   display: flex;
-  width: 480px;
+  width: 35%;
   height: 550px;
   background-color: rgb(255, 255, 255);
   margin-top: 60px;
@@ -451,11 +451,11 @@ p {
   border-radius: 7px;
 }
 .processdiv2:hover {
-  transform: scale(1.04);
+  transform: scale(1.03);
 }
 
 .processdiv1:hover {
-  transform: scale(1.04);
+  transform: scale(1.03);
 }
 
 .sec1-2 h1 {
@@ -1437,8 +1437,7 @@ button:hover {
   .imgassets p {
     font-size: 15px;
   }
-
-  .twoimages {
+  a .twoimages {
     flex-direction: column;
   }
 }

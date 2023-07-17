@@ -233,6 +233,11 @@ p {
     src: url(../FOnts/Gilroy-Regular.ttf);
   }
 
+  .assets h1 {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
   .twosections {
     height: 100%;
     flex-direction: column;
@@ -250,7 +255,7 @@ p {
     display: none;
   }
   .navlinks {
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
