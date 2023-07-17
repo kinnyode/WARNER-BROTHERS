@@ -83,7 +83,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 15vh;
+  height: 11vh;
   align-items: center;
 }
 
@@ -95,7 +95,7 @@ p {
 }
 
 .imgsection img {
-  width: 80%;
+  width: 90%;
   object-fit: cover;
   object-position: top;
 }
@@ -303,7 +303,7 @@ p {
     padding: 10px;
   }
   .imgsection img {
-    width: 90%;
+    width: 95%;
   }
 
   .assets {
