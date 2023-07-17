@@ -76,7 +76,7 @@ p {
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 .assets {
@@ -86,7 +86,9 @@ p {
   height: 11vh;
   align-items: center;
 }
-
+.assets h1 {
+  color: black;
+}
 .imgsection {
   width: 100%;
   display: flex;
@@ -236,7 +238,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 15px;
   height: 50vh;
 }
 
@@ -318,5 +320,6 @@ p {
     display: flex;
     justify-content: center;
     width: 100%;
+    padding: 10px;
   }
 }
