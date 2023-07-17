@@ -34,7 +34,7 @@ p {
   display: none;
 }
 
-::placeholder {
+p {
   font-family: myfont2;
 }
 
@@ -60,6 +60,10 @@ p {
   gap: 50px;
 }
 
+a {
+  font-family: myfont2;
+}
+
 .links a {
   transition: 0.4s;
 }
@@ -76,7 +80,7 @@ p {
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .assets {
@@ -87,7 +91,7 @@ p {
   align-items: center;
 }
 .assets h1 {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .imgsection {
   width: 100%;
@@ -149,6 +153,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  font-family: myfont2;
 }
 
 .details2 img {
@@ -200,6 +205,7 @@ p {
   font-size: 17px;
   font-weight: 200;
   color: white;
+  font-family: myfont2;
 }
 .footer {
   display: flex;
@@ -246,6 +252,10 @@ p {
   @font-face {
     font-family: myfont2;
     src: url(../FOnts/Gilroy-Regular.ttf);
+  }
+
+  a {
+    font-family: myfont2;
   }
 
   .assets h1 {
