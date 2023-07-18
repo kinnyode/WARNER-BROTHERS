@@ -1,0 +1,393 @@
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: myfont;
+  scroll-behavior: smooth;
+  font-weight: 400;
+  font-display: optional;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+p {
+  font-family: myfont2;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(../FOnts/QuantaGroteskPro-Regular-BF6459a54c2dd8b.otf);
+}
+@font-face {
+  font-family: myfont2;
+  src: url(../FOnts/Gilroy/Gilroy-Medium.ttf);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  background-color: transparent;
+}
+.more {
+  display: none;
+}
+
+::placeholder {
+  font-family: myfont2;
+}
+
+.navlinks {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+.navlinks a {
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  font-family: myfont2;
+}
+
+.links a:hover {
+  color: #a42525;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+.links a {
+  transition: 0.4s;
+}
+
+.logo {
+  color: white;
+}
+.logo p {
+  font-size: 15px;
+}
+
+.headerdiv {
+  display: flex;
+  height: 25vh;
+  background-image: url(../Assets/about\ header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.h1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
+
+.first-text {
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.first-text h1 {
+  color: white;
+  font-size: 30px;
+}
+
+.three-sections {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+.secassets {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+.section1 img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.section1 {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.p-asset {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.h1asset {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.part2,
+.part3,
+.part4 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.part1 {
+  color: rgb(0, 0, 0);
+}
+
+.section2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.section3 {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.sec-assets {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 140vh;
+}
+.expertise-section {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.expertise-asset {
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.line {
+  width: 70%;
+  height: 0.5px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 20px;
+}
+
+.linediv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lasttwo {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+  color: rgb(0, 0, 0);
+}
+
+.part1 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.part3 {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.part2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.part4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.part5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.part5 img {
+  width: 70%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.part7 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.line2 {
+  width: 70%;
+  height: 0.5px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.newline {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.twosections {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: #000000;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.section1x {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  justify-content: end;
+  padding: 20px;
+}
+
+.section2x {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  justify-content: start;
+  padding: 20px;
+}
+
+.flexdiv {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  gap: 20px;
+}
+
+.introtext {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.meet-h1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.meet-assets {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 15px;
+}
+
+.meet-p {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.section1x img {
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.section2x img {
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.outrotext {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 20vh;
+  background-color: #000000;
+  color: white;
+}
+
+.fadetext {
+  width: 100%;
+  justify-content: end;
+  padding-right: 20px;
+  display: flex;
+  font-size: 8px;
+  color: grey;
+  background-color: #000000;
+}
+
+.meet-section {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}

@@ -29,8 +29,8 @@ p {
   height: 100vh;
   width: 100%;
   display: flex;
-  background-image: url(../Assets/Desktop\ -\ 9.webp);
-  background-position: bottom;
+  background-image: url(../sec/8d8067146082181.62a9e07b51ce2.jpg);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
@@ -662,7 +662,6 @@ p {
   background-color: black;
   justify-content: center;
   align-items: center;
-  display: flex;
 }
 .pcontent p {
   color: rgb(234, 234, 234);
