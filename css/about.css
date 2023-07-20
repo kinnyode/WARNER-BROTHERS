@@ -391,3 +391,97 @@ p {
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 767px) {
+  @font-face {
+    font-family: myfont2;
+    src: url(../FOnts/Gilroy-Regular.ttf);
+  }
+
+  .first-text h1 {
+    font-size: 13px;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .more {
+    display: flex;
+    justify-content: end;
+  }
+
+  .more img {
+    width: 10%;
+    object-fit: contain;
+  }
+
+  .h1asset h1 {
+    font-size: 13px;
+  }
+
+  .part6 h1 {
+    font-size: 14px;
+  }
+  .part7 p {
+    font-size: 15px;
+  }
+  .flexdiv {
+    flex-direction: column;
+  }
+
+  .section1x {
+    justify-content: center;
+  }
+
+  .section2x {
+    justify-content: center;
+  }
+
+  .outrotext p {
+    font-size: 10px;
+  }
+
+  .fadetext h1 {
+    font-size: 13px;
+  }
+
+  .meet-h1 {
+    font-size: 13px;
+  }
+
+  .expertise-asset {
+    gap: 17px;
+  }
+
+  .sec-assets {
+    height: 100%;
+    gap: 50px;
+  }
+
+  .h1asset p {
+    font-size: 13px;
+  }
+
+  .part3 p,
+  .part2 p,
+  .part4 p {
+    font-size: 13px;
+  }
+
+  .p-asset p {
+    font-size: 13px;
+  }
+
+  .h1 {
+    font-size: 25px;
+  }
+
+  .introtext p {
+    font-size: 13px;
+  }
+
+  .part7 p {
+    font-size: 13px;
+  }
+}
