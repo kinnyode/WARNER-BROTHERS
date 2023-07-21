@@ -1,0 +1,372 @@
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: myfont;
+  scroll-behavior: smooth;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+p {
+  font-family: myfont2;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(../FOnts/QuantaGroteskPro-Regular-BF6459a54c2dd8b.otf);
+}
+@font-face {
+  font-family: myfont2;
+  src: url(../FOnts/Gilroy/Gilroy-Medium.ttf);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  background-color: black;
+}
+.more {
+  display: none;
+}
+
+p {
+  font-family: myfont2;
+}
+
+.navlinks {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+.navlinks a {
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  font-family: myfont2;
+}
+
+.links a:hover {
+  color: #a42525;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+a {
+  font-family: myfont2;
+}
+
+.links a {
+  transition: 0.4s;
+}
+
+.logo {
+  color: white;
+}
+.logo p {
+  font-size: 15px;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+}
+
+.assets {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 11vh;
+  align-items: center;
+}
+.assets h1 {
+  color: rgb(255, 255, 255);
+}
+.imgsection {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.imgsection img {
+  width: 90%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.twosections {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  flex-direction: column;
+}
+
+.section1 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+}
+.section2 {
+  width: 2px;
+  height: 100%;
+  background-color: rgb(103, 103, 103);
+}
+
+.details1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
+.details2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  display: none;
+}
+
+.p {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: myfont2;
+}
+
+.details2 img {
+  width: 20%;
+  object-fit: contain;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  gap: 30px;
+}
+
+.details1 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.details1 p {
+  justify-content: center;
+  display: flex;
+  font-size: 17px;
+  font-weight: 200;
+  color: white;
+}
+
+.details2 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.details1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.details2 a {
+  text-decoration: none;
+  color: white;
+}
+.details2 p {
+  justify-content: center;
+  display: flex;
+  font-size: 17px;
+  font-weight: 200;
+  color: white;
+  font-family: myfont2;
+}
+.footer {
+  display: flex;
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  width: 150px;
+  padding: 15px;
+  background-color: #a42525;
+  color: white;
+  border: 1px solid black;
+  justify-content: center;
+  align-self: center;
+  font-size: 17px;
+  align-items: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.contact:hover {
+  border: 1px solid rgb(61, 61, 61);
+  background-color: transparent;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  height: 50vh;
+}
+
+input[type="email"] {
+  width: 70%;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  align-self: center;
+  justify-self: center;
+  border-radius: 5px;
+  border: 1px solid grey;
+  background: #ffffff;
+}
+
+textarea {
+  width: 70%;
+  align-self: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input {
+  width: 70%;
+  align-self: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  @font-face {
+    font-family: myfont2;
+    src: url(../FOnts/Gilroy-Regular.ttf);
+  }
+
+  a {
+    font-family: myfont2;
+  }
+
+  .assets h1 {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .twosections {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .content {
+    gap: 50px;
+  }
+
+  .dummylink {
+    display: none;
+  }
+
+  .links {
+    display: none;
+  }
+  .navlinks {
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .details1 p {
+    font-size: 17px;
+  }
+
+  .details2 p {
+    font-size: 17px;
+  }
+
+  .details1 h1 {
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .details2 h1 {
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .more {
+    display: flex;
+    justify-content: end;
+  }
+
+  .more img {
+    width: 10%;
+    object-fit: contain;
+  }
+  .imgsection {
+    padding: 10px;
+    padding: 0px;
+  }
+  .imgsection img {
+    width: 90%;
+  }
+
+  .assets {
+    height: 10vh;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
