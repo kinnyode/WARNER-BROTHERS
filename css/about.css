@@ -18,11 +18,11 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/QuantaGroteskPro-Regular-BF6459a54c2dd8b.otf);
+  src: url(../FOnts/ClashDisplay-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
-  src: url(../FOnts/Gilroy/Gilroy-Medium.ttf);
+  src: url(../FOnts/GeneralSans-Light.otf);
 }
 
 .header {
@@ -395,7 +395,7 @@ p {
 @media screen and (max-width: 767px) {
   @font-face {
     font-family: myfont2;
-    src: url(../FOnts/Gilroy-Regular.ttf);
+    src: url(../FOnts/GeneralSans-Light.otf);
   }
 
   .first-text h1 {

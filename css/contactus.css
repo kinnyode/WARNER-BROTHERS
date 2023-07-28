@@ -17,11 +17,11 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/QuantaGroteskPro-Regular-BF6459a54c2dd8b.otf);
+  src: url(../FOnts/ClashDisplay-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
-  src: url(../FOnts/Gilroy/Gilroy-Medium.ttf);
+  src: url(../FOnts/GeneralSans-Light.otf);
 }
 
 .header {
@@ -49,6 +49,7 @@ p {
   text-decoration: none;
   color: rgb(241, 241, 241);
   font-family: myfont2;
+  font-size: 13px;
 }
 
 .links a:hover {
@@ -81,6 +82,7 @@ a {
   display: flex;
   flex-direction: column;
   background-color: rgb(0, 0, 0);
+  gap: 20px;
 }
 
 .assets {
@@ -103,13 +105,13 @@ a {
 .imgsection img {
   width: 90%;
   object-fit: cover;
-  object-position: bottom;
+  object-position: center;
 }
 
 .twosections {
   display: flex;
   gap: 30px;
-  padding: 20px;
+  padding: 15px;
   background-color: rgb(0, 0, 0);
   height: 100%;
   flex-direction: column;
@@ -121,6 +123,8 @@ a {
   background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-around;
+  gap: 30px;
+  flex-direction: column;
 }
 
 form {
@@ -229,8 +233,8 @@ p {
 
 .contact {
   display: flex;
-  width: 150px;
-  padding: 15px;
+  width: 110px;
+  padding: 13px;
   background-color: #a42525;
   color: white;
   border: 1px solid black;
@@ -260,35 +264,48 @@ p {
 }
 
 input[type="email"] {
-  width: 70%;
+  width: 30%;
   justify-content: center;
   display: flex;
-  padding: 20px;
+  padding: 12px;
   align-self: center;
   justify-self: center;
   border-radius: 5px;
-  border: 1px solid grey;
+  border: 1px solid rgb(55, 55, 55);
   background: #ffffff;
 }
 
 textarea {
-  width: 70%;
+  width: 50%;
   align-self: center;
   padding: 20px;
   border-radius: 5px;
+  font-size: 17px;
+  font-family: myfont2;
 }
 
 input {
-  width: 70%;
+  width: 30%;
   align-self: center;
-  padding: 20px;
+  padding: 12px;
   border-radius: 5px;
+  font-size: 17px;
+  font-family: myfont2;
+}
+.navlinks a {
+  font-size: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
   @font-face {
     font-family: myfont2;
-    src: url(../FOnts/Gilroy-Regular.ttf);
+    src: url(../FOnts/GeneralSans-Light.otf);
   }
 
   a {
@@ -319,6 +336,10 @@ input {
   .navlinks {
     justify-content: space-around;
     align-items: center;
+  }
+
+  .navlinks a {
+    font-size: 15px;
   }
 
   .details1 p {
@@ -368,5 +389,43 @@ input {
     display: flex;
     justify-content: center;
     width: 100%;
+  }
+
+  input[type="email"] {
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    padding: 7px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background: #ffffff;
+    font-size: 8px;
+  }
+
+  textarea {
+    width: 80%;
+    align-self: center;
+    padding: 10px;
+    height: 130px;
+    border-radius: 5px;
+    font-size: 9px;
+  }
+
+  input {
+    width: 60%;
+    align-self: center;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+
+  .section1 {
+    gap: 20px;
+  }
+
+  .imgsection img {
+    width: 90%;
   }
 }

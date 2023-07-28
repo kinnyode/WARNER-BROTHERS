@@ -18,19 +18,19 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/QuantaGroteskPro-Regular-BF6459a54c2dd8b.otf);
+  src: url(../FOnts/ClashDisplay-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
-  src: url(../FOnts/Gilroy/Gilroy-Medium.ttf);
+  src: url(../FOnts/GeneralSans-Light.otf);
 }
 
 .heropage {
   height: 100vh;
   width: 100%;
   display: flex;
-  background-image: url(../sec/8d8067146082181.62a9e07b51ce2.jpg);
-  background-position: top;
+  background-image: url(../LP/ivars-utinans-PFzoYlil3HE-unsplash.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
@@ -74,7 +74,7 @@ p {
 }
 
 .links a {
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .logo {
@@ -98,7 +98,7 @@ p {
 
 .assets h1 {
   display: flex;
-  font-size: 65px;
+  font-size: 80px;
   font-weight: 300;
 }
 input {
@@ -113,7 +113,7 @@ input {
 
 .assets h2 {
   display: flex;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 100;
   color: rgb(255, 255, 255);
   gap: 7px;
@@ -136,7 +136,7 @@ input {
 }
 .actionline h1 {
   font-size: 40px;
-  transition: 0.7s;
+  transition: 0.3s;
 }
 .actionline h1:hover {
   color: #af2525;
@@ -236,10 +236,8 @@ p {
 }
 
 .subtext {
-  width: 100%;
   display: flex;
   gap: 20px;
-  justify-content: center;
 }
 
 .sectext {
@@ -275,7 +273,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 100%;
   align-items: center;
 }
 
@@ -543,7 +540,7 @@ p {
 .viewall {
   width: 130px;
   height: fit-content;
-  padding: 13px;
+  padding: 15px;
   justify-content: center;
   align-items: center;
   color: white;
@@ -552,6 +549,9 @@ p {
   display: flex;
   transition: 0.4s;
   align-self: flex-start;
+}
+button.viewall {
+  border-radius: none;
 }
 
 .viewall:hover {
@@ -576,6 +576,7 @@ p {
   gap: 20px;
   padding: 25px;
   flex-direction: column;
+  align-items: center;
 }
 
 .pbox1 {
@@ -587,6 +588,10 @@ p {
   cursor: pointer;
 }
 
+.threeprojectboxes a {
+  display: flex;
+  justify-content: center;
+}
 .pbox1:hover {
   transform: scale(1.021);
 }
@@ -705,7 +710,7 @@ p {
   justify-content: center;
   width: 100%;
   display: flex;
-  height: 20vh;
+  height: 15vh;
   align-items: center;
 }
 
@@ -738,7 +743,7 @@ p {
 
 .prefooter {
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   background-image: url(../Assets/prefooter.png);
   background-size: cover;
   background-position: bottom;
@@ -795,7 +800,7 @@ p {
 
 .footersection {
   display: flex;
-  background-color: #000000;
+  background-color: #101010;
   width: 100%;
   color: #ffffff;
 }
@@ -816,7 +821,7 @@ p {
 .footer1 {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 30px;
   font-size: 15px;
   width: 100%;
 }
@@ -829,9 +834,12 @@ p {
 input {
   padding: 15px;
   border: 0px solid rgb(0, 0, 0);
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(255, 255, 255);
   width: 100%;
-  color: white;
+  border-radius: 7px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: myfont2;
 }
 
 .inputsec {
@@ -843,17 +851,18 @@ input {
 }
 
 button {
-  padding: 10px;
+  padding: 13px;
   border: 1px solid rgb(34 34 34);
   background-color: #000000;
   color: white;
-  width: 120px;
+  width: 105px;
   cursor: pointer;
   transition: 0.4s;
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: center;
+  border-radius: 30px;
 }
 
 button:hover {
@@ -867,7 +876,7 @@ button:hover {
 
 .lastfooter {
   display: flex;
-  background-color: #000000;
+  background-color: #101010;
   width: 100%;
   color: #ffffff;
   height: 20vh;
@@ -892,7 +901,7 @@ button:hover {
   color: white;
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1208px) {
   .p1 img {
     object-fit: cover;
     width: 85%;
@@ -1044,9 +1053,12 @@ button:hover {
 }
 
 @media screen and (max-width: 767px) {
+  .prefooter {
+    height: 70vh;
+  }
   @font-face {
     font-family: myfont2;
-    src: url(../FOnts/Gilroy-Regular.ttf);
+    src: url(../FOnts/GeneralSans-Light.otf);
   }
 
   .footerassets img {

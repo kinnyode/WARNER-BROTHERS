@@ -1,0 +1,134 @@
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: myfont;
+  scroll-behavior: smooth;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+p {
+  font-family: myfont2;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(../FOnts/ClashDisplay-Regular.otf);
+}
+@font-face {
+  font-family: myfont2;
+  src: url(../FOnts/GeneralSans-Regular.otf);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  background-color: black;
+}
+.more {
+  display: none;
+}
+
+p {
+  font-family: myfont2;
+}
+
+.navlinks {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+.navlinks a {
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  font-family: myfont2;
+  font-size: 15px;
+}
+
+.links a:hover {
+  color: #a42525;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+a {
+  font-family: myfont2;
+}
+
+.links a {
+  transition: 0.4s;
+}
+
+.logo {
+  color: white;
+}
+.logo p {
+  font-size: 15px;
+}
+
+.firstext {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  height: 10vh;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.twosections {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  background-color: plum;
+}
+
+.section1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+}
+
+.section2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+}
+
+.h1 {
+  font-size: 20px;
+  color: white;
+  /* padding-left: 30px; */
+}
+
+.assets {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 30px;
+}
+
+.text1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+p {
+  color: white;
+}

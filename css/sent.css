@@ -1,0 +1,193 @@
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: myfont;
+  scroll-behavior: smooth;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+p {
+  font-family: myfont2;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(../FOnts/ClashDisplay-Regular.otf);
+}
+@font-face {
+  font-family: myfont2;
+  src: url(../FOnts/GeneralSans-Regular.otf);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  background-color: black;
+}
+.more {
+  display: none;
+}
+
+p {
+  font-family: myfont2;
+}
+
+.navlinks {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+.navlinks a {
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  font-family: myfont2;
+  font-size: 15px;
+}
+
+.links a:hover {
+  color: #a42525;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+a {
+  font-family: myfont2;
+}
+
+.links a {
+  transition: 0.4s;
+}
+
+.logo {
+  color: white;
+}
+.logo p {
+  font-size: 15px;
+}
+
+.body {
+  display: flex;
+  width: 100%;
+  height: 95vh;
+}
+
+h1 {
+  color: black;
+}
+
+.assets {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  font-weight: 300;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.checkbox {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.checkbox a {
+  text-decoration: underline;
+  color: #00145c;
+}
+
+.assets img {
+  width: 5%;
+}
+
+@media screen and (max-width: 769px) {
+  .links {
+    display: none;
+  }
+  .navlinks {
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .navlinks a {
+    font-size: 15px;
+  }
+
+  .details1 p {
+    font-size: 17px;
+  }
+
+  .details2 p {
+    font-size: 17px;
+  }
+
+  .details1 h1 {
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .details2 h1 {
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .more {
+    display: flex;
+    justify-content: end;
+  }
+
+  .more img {
+    width: 10%;
+    object-fit: contain;
+  }
+  .sectionone {
+    display: none;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .signintext {
+    font-size: 14px;
+  }
+
+  .twoinputs p {
+    font-weight: 100;
+    font-size: 13px;
+  }
+
+  .twoinputs {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .checkbox p {
+    font-weight: 200;
+  }
+
+  .signup {
+    font-weight: 500;
+    font-size: 17px;
+  }
+
+  .assets {
+    margin-top: 50px;
+  }
+}
