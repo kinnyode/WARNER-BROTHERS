@@ -17,7 +17,7 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/ClashDisplay-Regular.otf);
+  src: url(../FOnts/BonwickTypeface-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
@@ -244,6 +244,7 @@ p {
   align-items: center;
   transition: 0.4s;
   cursor: pointer;
+  border-radius: 30px;
 }
 
 .contact:hover {
@@ -392,16 +393,16 @@ form {
   }
 
   input[type="email"] {
-    width: 60%;
+    width: 65%;
     justify-content: center;
     display: flex;
-    padding: 7px;
+    padding: 10px;
     align-self: center;
     justify-self: center;
     border-radius: 5px;
     border: 1px solid grey;
     background: #ffffff;
-    font-size: 8px;
+    font-size: 9px;
   }
 
   textarea {
@@ -414,15 +415,18 @@ form {
   }
 
   input {
-    width: 60%;
+    width: 65%;
     align-self: center;
-    padding: 7px;
+    padding: 10px;
     border-radius: 5px;
-    font-size: 8px;
+    font-size: 9px;
   }
 
   .section1 {
     gap: 20px;
+  }
+  .navlinks a {
+    font-size: 13px;
   }
 
   .imgsection img {

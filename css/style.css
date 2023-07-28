@@ -18,7 +18,7 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/ClashDisplay-Regular.otf);
+  src: url(../FOnts/BonwickTypeface-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
@@ -29,7 +29,7 @@ p {
   height: 100vh;
   width: 100%;
   display: flex;
-  background-image: url(../LP/ivars-utinans-PFzoYlil3HE-unsplash.jpg);
+  background-image: url(../Images/pexels-yura-forrat-12022650.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -288,8 +288,9 @@ p {
 
 .sectiontwo img {
   width: 53%;
-  height: 100%;
+
   object-fit: contain;
+  border-radius: 25px;
 }
 
 .twosectionss {
@@ -339,7 +340,7 @@ p {
 }
 
 .plogos img {
-  width: 10%;
+  width: 8%;
   height: 100%;
   object-fit: contain;
   aspect-ratio: 4/4;
@@ -744,9 +745,9 @@ button.viewall {
 .prefooter {
   width: 100%;
   height: 70vh;
-  background-image: url(../Assets/prefooter.png);
+  background-image: url(../Images/pexels-joshua-135018.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-around;
@@ -1064,6 +1065,7 @@ button:hover {
   .footerassets img {
     width: 10%;
   }
+
   .plogos {
     width: 100%;
     display: flex;
@@ -1468,9 +1470,16 @@ button:hover {
   a .twoimages {
     flex-direction: column;
   }
+
+  p {
+    font-weight: 400;
+  }
 }
 
 @media screen and (max-width: 376px) {
+  .preasset1 h1 {
+    font-size: 30px;
+  }
   .assets h1 {
     font-size: 25px;
   }
