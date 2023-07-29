@@ -48,7 +48,7 @@ p {
 }
 .navlinks a {
   text-decoration: none;
-  color: rgb(241, 241, 241);
+  color: rgb(0, 0, 0);
   font-family: myfont2;
 }
 
@@ -75,7 +75,7 @@ p {
 .headerdiv {
   display: flex;
   height: 25vh;
-  background-image: url(../Assets/about\ header.png);
+  background-image: url(../Images/pexels-amelia-cui-7528047.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
