@@ -270,7 +270,7 @@ input[type="email"] {
   justify-content: center;
   display: flex;
   padding: 12px;
-
+  color: white;
   justify-self: center;
 
   border: 1px solid rgb(55, 55, 55);
@@ -293,6 +293,7 @@ textarea {
   border-radius: 5px;
   font-size: 17px;
   font-family: myfont2;
+  color: white;
 }
 
 input {
@@ -306,6 +307,7 @@ input {
   border-radius: 5px;
   font-size: 17px;
   font-family: myfont2;
+  color: white;
 }
 .navlinks a {
   font-size: 15px;
