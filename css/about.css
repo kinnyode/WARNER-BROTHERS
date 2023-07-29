@@ -18,7 +18,7 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/ClashDisplay-Light.otf);
+  src: url(../FOnts/CraftworkGrotesk-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
@@ -262,7 +262,7 @@ p {
 }
 
 .part5 img {
-  width: 70%;
+  width: 85%;
   height: 100%;
   object-fit: contain;
 }
@@ -354,13 +354,13 @@ p {
 }
 
 .section1x img {
-  width: 50%;
+  width: 60%;
   height: 100%;
   object-fit: contain;
 }
 
 .section2x img {
-  width: 50%;
+  width: 60%;
   height: 100%;
   object-fit: contain;
 }
@@ -421,7 +421,7 @@ p {
   }
 
   .part6 h1 {
-    font-size: 14px;
+    font-size: 20px;
   }
   .part7 p {
     font-size: 15px;
@@ -451,7 +451,7 @@ p {
   }
 
   .expertise-asset {
-    gap: 17px;
+    gap: 20px;
   }
 
   .sec-assets {
@@ -478,10 +478,18 @@ p {
   }
 
   .introtext p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .part7 p {
     font-size: 13px;
+  }
+
+  .outrotext p {
+    font-size: 13px;
+  }
+
+  .flexdiv {
+    gap: 0px;
   }
 }

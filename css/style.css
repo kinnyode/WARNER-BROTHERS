@@ -30,7 +30,7 @@ p {
   width: 100%;
   display: flex;
   background-image: url(../Images/pierre-chatel-innocenti-Lk-nu_hX6ms-unsplash.jpg);
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
@@ -1218,12 +1218,12 @@ button:hover {
   }
 
   .assets h1 {
-    font-size: 33px;
+    font-size: 30px;
     font-weight: 200;
   }
 
   .assets h2 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 200;
   }
   .line {
@@ -1400,7 +1400,7 @@ button:hover {
   }
 
   .pbox1 {
-    width: 80%;
+    width: 90%;
   }
 
   .processdiv1 {
@@ -1458,7 +1458,7 @@ button:hover {
   }
 
   .preasset1 h1 {
-    font-size: 38px;
+    font-size: 35px;
   }
 
   .letstalk {
