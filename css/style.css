@@ -1126,7 +1126,7 @@ button:hover {
   }
 
   .navactive a {
-    color: #000000;
+    color: black;
   }
 
   @keyframes mymove {
