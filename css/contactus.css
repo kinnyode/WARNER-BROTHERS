@@ -272,15 +272,24 @@ input[type="email"] {
   padding: 12px;
 
   justify-self: center;
-  border-radius: 5px;
+
   border: 1px solid rgb(55, 55, 55);
-  background: #ffffff;
+  background: #000000;
+
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 textarea {
   width: 50%;
-
-  padding: 20px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid white;
+  background-color: black;
+  padding: 10px;
   border-radius: 5px;
   font-size: 17px;
   font-family: myfont2;
@@ -288,7 +297,11 @@ textarea {
 
 input {
   width: 30%;
-
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid white;
+  background-color: black;
   padding: 12px;
   border-radius: 5px;
   font-size: 17px;
@@ -302,6 +315,14 @@ form {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+input::placeholder {
+  color: white;
+}
+
+textarea::placeholder {
+  color: white;
 }
 
 @media screen and (max-width: 767px) {
@@ -398,29 +419,49 @@ form {
     justify-content: center;
     display: flex;
     padding: 13px;
-
     justify-self: center;
-    border-radius: 5px;
+
     border: 1px solid grey;
-    background: #ffffff;
+    background: #000000;
     font-size: 12px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid white;
   }
 
   textarea {
     width: 80%;
-
+    background-color: black;
     padding: 10px;
     height: 130px;
-    border-radius: 5px;
+
     font-size: 12px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid white;
+  }
+
+  input::placeholder {
+    color: white;
+  }
+
+  textarea::placeholder {
+    color: white;
   }
 
   input {
     width: 65%;
 
     padding: 13px;
-    border-radius: 5px;
+
     font-size: 12px;
+    background-color: black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid white;
   }
 
   .section1 {
