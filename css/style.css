@@ -18,7 +18,7 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/Melodrama-Regular.otf);
+  src: url(../FOnts/CraftworkGrotesk-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
@@ -29,8 +29,8 @@ p {
   height: 100vh;
   width: 100%;
   display: flex;
-  background-image: url(../Images/pexels-yura-forrat-12022650.jpg);
-  background-position: center;
+  background-image: url(../Images/pierre-chatel-innocenti-Lk-nu_hX6ms-unsplash.jpg);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
@@ -1120,7 +1120,7 @@ button:hover {
     background-color: white;
     font-size: 17px;
     text-align: end;
-    animation: mymove forwards 1s ease-in;
+    animation: mymove forwards 0.2s ease-in;
     color: black;
     height: 30vh;
     justify-content: center;
