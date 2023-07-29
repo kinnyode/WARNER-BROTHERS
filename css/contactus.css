@@ -17,7 +17,7 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/BonwickTypeface-Regular.otf);
+  src: url(../FOnts/Melodrama-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
@@ -224,7 +224,7 @@ p {
 }
 .footer {
   display: flex;
-  padding: 40px;
+  padding: 5px;
   height: 100%;
   width: 100%;
   background-color: black;
@@ -396,13 +396,13 @@ form {
     width: 65%;
     justify-content: center;
     display: flex;
-    padding: 10px;
+    padding: 13px;
     align-self: center;
     justify-self: center;
     border-radius: 5px;
     border: 1px solid grey;
     background: #ffffff;
-    font-size: 9px;
+    font-size: 10px;
   }
 
   textarea {
@@ -411,15 +411,15 @@ form {
     padding: 10px;
     height: 130px;
     border-radius: 5px;
-    font-size: 9px;
+    font-size: 10px;
   }
 
   input {
     width: 65%;
     align-self: center;
-    padding: 10px;
+    padding: 13px;
     border-radius: 5px;
-    font-size: 9px;
+    font-size: 10px;
   }
 
   .section1 {

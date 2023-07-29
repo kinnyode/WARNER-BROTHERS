@@ -18,7 +18,7 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/BonwickTypeface-Regular.otf);
+  src: url(../FOnts/Melodrama-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
@@ -43,7 +43,7 @@ p {
   height: 100px;
   background-color: transparent;
 }
-.more {
+.toggle {
   display: none;
 }
 
@@ -833,13 +833,13 @@ button.viewall {
 }
 
 input {
-  padding: 15px;
+  padding: 10px;
   border: 0px solid rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   width: 100%;
   border-radius: 7px;
   color: rgb(0, 0, 0);
-  font-size: 15px;
+  font-size: 13px;
   font-family: myfont2;
 }
 
@@ -917,12 +917,12 @@ button:hover {
   .twoprojects {
     flex-direction: column;
   }
-  .more {
+  .toggle {
     display: flex;
     justify-content: end;
   }
 
-  .more img {
+  .toggle img {
     width: 10%;
     object-fit: contain;
     cursor: pointer;
@@ -1051,6 +1051,26 @@ button:hover {
   .processdiv2 {
     width: 65%;
   }
+
+  .testimonydiv {
+    flex-direction: column;
+  }
+
+  .testimonyh1 {
+    margin-top: 30px;
+  }
+
+  .prefooter {
+    height: 100vh;
+  }
+
+  input {
+    padding: 10px;
+  }
+
+  .testimonysection {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1085,12 +1105,40 @@ button:hover {
     display: none;
   }
 
-  .more {
+  .toggle {
     display: flex;
     justify-content: end;
   }
 
-  .more img {
+  .navactive {
+    display: flex;
+    position: absolute;
+    top: 61px;
+    flex-direction: column;
+    padding: 20px;
+    width: 98%;
+    background-color: white;
+
+    text-align: end;
+    animation: mymove forwards 1s ease-in;
+    color: black;
+    height: 40vh;
+  }
+
+  .navactive a {
+    color: #000000;
+  }
+
+  @keyframes mymove {
+    from {
+      top: 50px;
+    }
+    to {
+      top: 80px;
+    }
+  }
+
+  .toggle img {
     width: 10%;
     object-fit: contain;
     cursor: pointer;
@@ -1169,12 +1217,12 @@ button:hover {
   }
 
   .assets h1 {
-    font-size: 29px;
+    font-size: 33px;
     font-weight: 200;
   }
 
   .assets h2 {
-    font-size: 29px;
+    font-size: 32px;
     font-weight: 200;
   }
   .line {
@@ -1182,7 +1230,7 @@ button:hover {
   }
 
   .navlinks a {
-    font-size: 13Spx;
+    font-size: 13px;
   }
 
   .textsh1 {
@@ -1409,7 +1457,7 @@ button:hover {
   }
 
   .preasset1 h1 {
-    font-size: 35px;
+    font-size: 38px;
   }
 
   .letstalk {

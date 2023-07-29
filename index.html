@@ -16,15 +16,16 @@
           </div>
           <div class="dummylink"></div>
           <div class="dummylink"></div>
-          <div class="more">
+          <div class="toggle" id="togglebtn" onclick="toggle()">
             <img src="Assets/more.png" alt="" />
           </div>
-          <div class="links">
+          <div class="links" id="navlinks">
             <a href="about.html">ABOUT</a>
             <a href="#">DESIGNS</a>
             <a href="contact.html">CONTACT</a>
           </div>
         </div>
+    
       </div>
       <div class="assets">
         <div class="textsh1">
@@ -438,5 +439,10 @@
         
       </div>
     </div>
+    <script>
+      function toggle(){
+        document.getElementById('navlinks').classList.toggle("navactive")
+      }
+    </script>
   </body>
 </html>
