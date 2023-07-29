@@ -492,4 +492,8 @@ p {
   .flexdiv {
     gap: 0px;
   }
+
+  .h1 {
+    color: black;
+  }
 }
