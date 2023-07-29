@@ -1116,16 +1116,17 @@ button:hover {
     top: 61px;
     flex-direction: column;
     padding: 20px;
-    width: 98%;
+    width: 92%;
     background-color: white;
-
+    font-size: 17px;
     text-align: end;
     animation: mymove forwards 1s ease-in;
     color: black;
-    height: 40vh;
+    height: 30vh;
+    justify-content: center;
   }
 
-  .navactive a {
+  .links a {
     color: black;
   }
 
