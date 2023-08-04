@@ -18,7 +18,7 @@ p {
 
 @font-face {
   font-family: myfont;
-  src: url(../FOnts/CraftworkGrotesk-Regular.otf);
+  src: url(../FOnts/PowerGrotesk-Regular.otf);
 }
 @font-face {
   font-family: myfont2;
@@ -48,8 +48,9 @@ p {
 }
 .navlinks a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: myfont2;
+  font-size: 13px;
 }
 
 .links a:hover {
@@ -75,8 +76,8 @@ p {
 .headerdiv {
   display: flex;
   height: 25vh;
-  background-image: url(../Images/pexels-amelia-cui-7528047.jpg);
-  background-position: center;
+  background-color: black;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
@@ -93,7 +94,7 @@ p {
 
 .first-text {
   width: 100%;
-  height: 40vh;
+  height: 35vh;
   background-color: black;
   justify-content: center;
   align-items: center;
@@ -123,7 +124,7 @@ p {
 }
 
 .section1 img {
-  width: 80%;
+  width: 90%;
   height: 100%;
   object-fit: contain;
 }
@@ -131,7 +132,8 @@ p {
 .section1 {
   width: 100%;
   height: 100%;
-  padding: 20px;
+  /* padding: 20px; */
+  margin-top: 30px;
   display: flex;
   justify-content: center;
 }
@@ -176,7 +178,8 @@ p {
 .section3 {
   width: 100%;
   height: 100%;
-  padding: 15px;
+  /* padding: 15px; */
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
 }
@@ -186,7 +189,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 140vh;
+  height: 100%;
+  gap: 30px;
 }
 .expertise-section {
   width: 100%;
@@ -262,7 +266,7 @@ p {
 }
 
 .part5 img {
-  width: 85%;
+  width: 95%;
   height: 100%;
   object-fit: contain;
 }
@@ -354,13 +358,13 @@ p {
 }
 
 .section1x img {
-  width: 60%;
+  width: 40%;
   height: 100%;
   object-fit: contain;
 }
 
 .section2x img {
-  width: 60%;
+  width: 40%;
   height: 100%;
   object-fit: contain;
 }
@@ -384,6 +388,7 @@ p {
   display: flex;
   font-size: 8px;
   color: grey;
+  padding-bottom: 10px;
   background-color: #000000;
 }
 
@@ -398,8 +403,16 @@ p {
     src: url(../FOnts/GeneralSans-Light.otf);
   }
 
+  .navlinks {
+    padding: 10px;
+  }
+
+  .navlinks a {
+    font-size: 10px;
+  }
+
   .first-text h1 {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .links {
@@ -436,10 +449,6 @@ p {
 
   .section2x {
     justify-content: center;
-  }
-
-  .outrotext p {
-    font-size: 10px;
   }
 
   .fadetext h1 {
@@ -486,14 +495,12 @@ p {
   }
 
   .outrotext p {
-    font-size: 13px;
+    font-size: 10px;
   }
-
   .flexdiv {
     gap: 0px;
   }
 
   .h1 {
-    color: black;
   }
 }
